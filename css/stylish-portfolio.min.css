@@ -326,9 +326,7 @@ a:hover {
     color: #155d74
 }
 
-iframe:hover {
-	opacity: 0.5
-}
+
 .btn-primary {
     background-color: #1d809f!important;
     border-color: #1d809f!important;
@@ -381,9 +379,22 @@ iframe:hover {
     height: auto;
 }
 
-.card-text, 
-.video-title {
+.card-text {
 	color: black;
-	text-align: center;
+	text-align: justify;
+    font-size: 15px;
 }
 
+.video-title {
+    text-align: center;
+    color: black;
+    font-size: 18px;
+}
+
+.video-role {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.card-img-top {
+}
