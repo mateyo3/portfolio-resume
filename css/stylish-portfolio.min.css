@@ -8,6 +8,42 @@ body {
     font-family: 'Source Sans Pro'
 }
 
+.topnav {
+    background-color: #333;
+    opacity: 0.9;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 3px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+/*    background-color: #ddd;*/
+    color: #FFC112;
+}
+
+.title-links a {
+    color: #343a40;
+    text-decoration: none;
+}
+
+.title-links a:hover {
+    color: #1a0000;
+    text-decoration: none;
+}
+
 .btn-xl {
     padding: 1.25rem 2.5rem
 }
